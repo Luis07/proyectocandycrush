@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <title>Partida</title>
+    <link href="Content/bootstrap.css" rel="stylesheet">
+    <link href="Content/site.css" rel="stylesheet">
+    <link href="Content/animate.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #313738;
+            background-image: url('Content/img/Wiki.jpg');
+            background-attachment: fixed;
+        }
+
+        #ele {
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+
+        .rojo {
+            background-color: red;
+        }
+
+        .azul {
+            background-color: blue;
+        }
+
+        .amarillo {
+            background-color: yellow;
+        }
+
+        .naranja {
+            background-color: orange;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        td {
+            width: 20px;
+            height: 40px;
+            text-align: left;
+            color: #757d5f;
+            font-size: 8px;
+            border: solid 1px #313738;
+            background-color: #07889B;
+            border-radius: 0px;
+        }
+
+            td:hover {
+                background-color: rgba(255, 255, 255, 0.8);
+            }
+
+        #tableCandy {
+            margin-top: 0%;
+        }
+
+        .puntos {
+            float: right;
+            width: 100%;
+            color: white;
+            background-color: #07889B;
+            margin-top: 20%;
+            text-align: center;
+            height: 40%;
+        }
+    </style>
+
+
+</head>
+<body onload="iniciarjuego();">
+   
+    <div class="container body-content col-md-3">
+        <h3>Puntos:</h3>
+        <div id="puntos" class="puntos"></div>
+        <h3>Movimientos restantes:</h3>
+        <div id="movrestantes" class="puntos"></div>
+    </div>
+    <div class="container body-content col-md-3">
+       
+       
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+    <div class="container body-content col-md-9">
+
+        <div id="container">
+
+        </div>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+    <div id="estadisticas">
+
+    </div>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    <script src="Scripts/main.js"></script>
+
+  
+</body>
+</html>
