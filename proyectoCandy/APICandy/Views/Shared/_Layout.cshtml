@@ -24,6 +24,7 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Inicio", "Index", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+                  
                  </ul>
             </div>
         </div>
@@ -38,6 +39,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Content/apicandy.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>
